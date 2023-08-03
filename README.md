@@ -35,3 +35,10 @@ and remove the following line
 ```c#
 services.AddDbContext<ProjectDbContext>();
 ```
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
